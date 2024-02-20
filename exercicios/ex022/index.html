@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grouping-Box</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: dimgray;
+      margin: 0;
+    }
+    header {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+    }
+    main {
+      background-color: white;
+      padding: 10px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: black;
+      color: wheat;
+      text-align: center;
+      padding: 1px;
+    }
+    article {
+      background-color: lightgrey;
+      padding: 5px;
+    }
+    article > aside {
+      background-color: rgb(158, 152, 152);
+    }
+    nav {
+      background-color: gray;
+      padding: 3px;
+      box-shadow: 1px 1px 1px black;
+    }
+    nav > a {
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 30px;
+    }
+    nav > a:hover {
+      text-decoration: underline;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu site</h1>
+    <menu>
+      <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </menu>
+  </header>
+  <main>
+    <section id="assuntos">
+
+    </section>
+    <section id="notícias">
+      <article>
+        <h2>Notícias sobre o Brasil</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, minima suscipit! Aperiam nihil sequi maiores sit labore quo nisi sint in quisquam expedita? Deleniti iusto quod blanditiis nesciunt animi saepe?</p>
+        <aside>
+          <p>Artigo escrito por Rafael</p>
+        </aside>
+      </article>
+      <article>
+
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Desenvolvido pelo Rafael</p>
+  </footer>
+</body>
+</html>

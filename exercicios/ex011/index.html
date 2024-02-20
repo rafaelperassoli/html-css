@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>imagens dinâmicas</title>
+</head>
+<body>
+  <h1>Imagens dinámicas</h1>
+  <p>tente abrir esse site em algum outro dispositivo ou simplesmente aumente e diminua a tela do seu computador</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/imagem-pequena.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/imagem-media.png" type="image/png">
+    <img src="imagens/imagem-grande.png" alt="Imagem Flexível">
+  </picture>
+  <h1>Colocando audio</h1>
+  <p>Vamos aprender a colocar um audio no site</p>
+  <audio preload="metadata" controls>
+    <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    <p>Infelizmente o seu computador não reconheceu o audio. <a href="midia/guanacast-33.mp3">Clique aqui para baixa-lo MP3</a>
+  </audio>
+</body>
+</html>
